@@ -85,10 +85,10 @@ CREATE TABLE `verify_codes` (
 
 ## 聊天页面
 <div align="center">
-  <img src="https://github.com/UnivexDont/WeGPT/blob/main/images/chaging.png" alt="" width="414">
+  <img src="https://github.com/UnivexDont/WeGPT/blob/main/images/chating.png" alt="" width="414">
 </div>
 <div align="center">
-  <img src="(https://github.com/UnivexDont/WeGPT/blob/main/images/chaging2.png" alt="" width="414">
+  <img src="(https://github.com/UnivexDont/WeGPT/blob/main/images/changting2.png" alt="" width="414">
 </div>
 
 ## 横屏
