@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package chatmessage;
+option go_package = "/chatmessage";
+message HeaderMessage {
+  string message = 1;
+  uint32 status = 2;
+}

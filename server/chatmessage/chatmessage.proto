@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package chatmessage;
+option go_package = "/chatmessage";
+
+// The greeting service definition.
+service ChatMessager {
+  // Sends a greeting
+  rpc SendMessage (ChatMessageRequest) returns (stream ChatMessageReply) {}
+}
+
+// The request message containing the user's name.
+message ChatMessageRequest {
+  string user = 1;
+  bytes messages = 2;
+}
+
+// The response message containing the greetings
+message ChatMessageReply {
+  string id = 1;
+  string message = 2;
+  bool finished = 3;
+  bool login = 4;
+}

@@ -1,0 +1,14 @@
+application:
+  name: "WeGPT"
+  version: 1.0
+  
+database:
+  name: "mysql"
+  host: "host.docker.internal"
+  port: 3306
+  pass: "123456Test"
+  user: "root"  
+
+smsCode:
+  signName: "卡达勒"
+  templateCode: "SMS_269610516"
