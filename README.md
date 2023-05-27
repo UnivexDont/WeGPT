@@ -14,7 +14,7 @@ CREATE TABLE `free_usages` (
 ```
 
 #### 用户邀请码
-```
+```sql
 REATE TABLE `invite_codes` (
   `user_id` int NOT NULL,
   `code` varchar(32) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -24,7 +24,7 @@ REATE TABLE `invite_codes` (
 ```
 
 #### 用户登录token
-```
+```sql
 CREATE TABLE `tokens` (
   `user_id` int NOT NULL,
   `token` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -35,7 +35,7 @@ CREATE TABLE `tokens` (
 ```
 
 #### 聊天消息tokens
-```
+```sql
 CREATE TABLE `token_usages` (
   `user_id` int NOT NULL,
   `token_used` int NOT NULL,
@@ -46,7 +46,7 @@ CREATE TABLE `token_usages` (
 ```
 
 #### 用户表
-```
+```sql
 CREATE TABLE `users` (
   `id` int NOT NULL,
   `email` varchar(64) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
@@ -63,7 +63,7 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
 #### 登录验证码
-```
+```sql
 CREATE TABLE `verify_codes` (
   `code` varchar(8) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
