@@ -103,6 +103,7 @@ CREATE TABLE `verify_codes` (
 <div align="center">
   <img src="https://github.com/UnivexDont/WeGPT/blob/main/images/theme_change.png" alt="" width="414">
 </div>
+
 ## 个人中心
 <div align="center">
   <img src="https://github.com/UnivexDont/WeGPT/blob/main/images/profile.png" alt="" width="414">
