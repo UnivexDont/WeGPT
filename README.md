@@ -1,5 +1,5 @@
 # WeGPT
-Flutter 版本的ChatGPT，支持iOS、Android、Windows、MACOS、Liniux和Web。
+Flutter 版本的ChatGPT，支持`iOS`、`Android`、`Windows`、`MACOS`、`Liniux`和`Web`。
 后端使用Golang Fiber框架+GOGRPC开发。实现快速搭建ChatGPT聊天机器人。
 `app`目录下是对应Flutter App段代码。
 `Server`目录下是golang代码。
