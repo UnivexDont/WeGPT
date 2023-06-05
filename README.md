@@ -1,8 +1,8 @@
 # WeGPT
 Flutter 版本的ChatGPT，支持`iOS`、`Android`、`Windows`、`MACOS`、`Liniux`和`Web`。
 后端使用Golang Fiber框架+GOGRPC开发。实现快速搭建ChatGPT聊天机器人。
-`app`目录下是对应Flutter App段代码。
-`Server`目录下是golang代码。
+`app`目录下是对应Flutter App端代码。
+`server`目录下是服务端golang代码。
 # 后端服务需要在MySQL中创建`gpt_app`数据库，然后使用sql 语句创建如下表：
 #### 免费用户可用免费消息数
 ```sql
